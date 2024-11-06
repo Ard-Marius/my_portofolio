@@ -1,0 +1,91 @@
+body {
+    margin: 0; /* Remove default margin */
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    animation: gradientAnimation 7s ease infinite;
+    background: linear-gradient(45deg, #093b14, #064f1e, #5e065f);
+    background-size: 300% 300%;
+}
+
+
+.sectionsbg {
+    position: relative; /* Position relative for stacking context */
+    background: transparent; /* Make the section background transparent */
+    padding: 3rem; /* Add padding for content */
+}
+
+.navigation .nav-link {
+    font-weight: 500;
+    color: rgb(206, 217, 214) !important;
+}
+
+.navbar-toggler {
+    background-color: rgb(58, 59, 60);
+}
+
+footer {
+    background-color: #212529; /* Dark background color to match the header */
+}
+
+footer .nav-link {
+    color: rgb(206, 217, 214) !important; /* Make nav-link text color consistent */
+}
+
+.backhome{
+    color: rgb(206, 217, 214);
+}
+    
+
+.ms-2 {
+    font-size: medium;
+}
+
+.about {
+    font-size: 20px;
+}
+.main{
+    font-size: 90px;
+}
+.description{
+    color:rgb(237, 240, 240)!important;
+}
+
+.description2{
+    color:rgb(165, 169, 167)!important;
+}
+.name1{
+    color: #ff845c;
+}
+
+.name2{
+    color: #b074ad;
+}
+
+.name3{
+    color: #58cc94;
+}
+.section {
+    flex: 1; /* Allow sections to grow and fill space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; /* Add padding */
+    color: white; /* Text color for contrast */
+    width: 100%; /* Ensure full width */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
