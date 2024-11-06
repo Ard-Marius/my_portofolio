@@ -6,7 +6,6 @@ body {
     animation: gradientAnimation 7s ease-in-out infinite; /* Smooth transition */
     background: linear-gradient(45deg, #093b14, #064f1e, #5e065f);
     background-size: 300% 300%; 
-    background-attachment: fixed; /* You can remove this if still problematic */
 }
 
 @keyframes gradientAnimation {
