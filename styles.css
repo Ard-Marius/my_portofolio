@@ -3,7 +3,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     animation: gradientAnimation 7s ease-in-out infinite;
-    background: linear-gradient(45deg, #093b14, #FFFF00, #5e065f);
+    background: linear-gradient(45deg, #512007, #064f1e, #5e065f);
     background-size: 300% 300%; 
 }
 
