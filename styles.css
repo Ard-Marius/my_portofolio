@@ -1,10 +1,10 @@
 body {
-    margin: 0;
+    margin: 0; /* Remove default margin */
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     animation: gradientAnimation 7s ease infinite;
-    background: linear-gradient(45deg, #093b14, #064f1e, #5e065f)!important;
+    background: linear-gradient(45deg, #653405, #064f1e, #5e065f)!important;
     background-size: 300% 300%;
 }
 
