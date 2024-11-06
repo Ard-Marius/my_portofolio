@@ -3,10 +3,9 @@ body {
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    animation: gradientAnimation 7s ease infinite;
-    background: linear-gradient(45deg, #093b14, #064f1e, #5e065f)!important;
-    background-size: 300% 300%; 
-    background-attachment: fixed; 
+    animation: gradientAnimation 7s ease-in-out infinite; /* Slightly smoother easing */
+    background: linear-gradient(45deg, #093b14, #064f1e, #5e065f) !important;
+    background-size: 300% 300%;
 }
 
 @keyframes gradientAnimation {
