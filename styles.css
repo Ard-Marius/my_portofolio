@@ -5,7 +5,7 @@ body {
     font-weight: 300;
     animation: gradientAnimation 7s ease infinite;
     background: linear-gradient(45deg, #093b14, #064f1e, #5e065f)!important;
-    background-size: 400% 400%; 
+    background-size: 300% 300%; 
     background-attachment: fixed; 
 }
 
